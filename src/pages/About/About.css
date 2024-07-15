@@ -1,0 +1,26 @@
+.hero {
+  background: cover center center transparent !important;
+}
+.halfHeight {
+  height: 50%;
+  width: auto;
+  max-width: 100%;
+}
+.about-title,
+.about h3 {
+  color: #1d479b;
+}
+.about p:not(.lhStory) {
+  color: #707070;
+  margin-bottom: 1rem;
+}
+.about button {
+  background-color: #4ac9e3;
+  padding: 5px 30px;
+  color: #fff;
+}
+.about p {
+  font-size: 18px;
+
+  line-height: 1.7;
+}

@@ -1,0 +1,36 @@
+.social i {
+  color: #3172f5;
+}
+
+.quick h5,
+.useful h5,
+.contact h5,
+.quick a,
+.useful a,
+.social a i {
+  color: #1d4f91;
+  font-weight: 800;
+}
+.social a i {
+}
+.quick,
+.useful {
+  color: gray;
+}
+.contact a {
+  /* display: block; */
+  text-decoration: none;
+}
+.contact a i {
+  /* width: 32px !important;
+  height: 32px !important; */
+  font-size: 1.5em;
+}
+
+.contact a span {
+  color: gray;
+}
+center {
+  color: #707070;
+  font-size: 0.7rem;
+}

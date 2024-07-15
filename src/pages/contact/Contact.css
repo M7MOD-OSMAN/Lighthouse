@@ -1,0 +1,36 @@
+.hero {
+  background: cover center center transparent !important;
+}
+.contact h2 {
+  font-size: 48px;
+  color: #1d479b;
+  margin-bottom: 1.2rem;
+}
+.contact i {
+  color: #1d479b;
+}
+.fs-25px {
+  font-size: 25px;
+}
+.contact-form {
+  -webkit-box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+}
+.contact-form form button {
+  background-color: #1d479b;
+}
+
+.contact-form textarea,
+.contact-form select {
+  border-radius: 1.5rem;
+}
+input,
+select {
+  height: 50px;
+}
+.form-control:focus,
+.form-select:focus {
+  box-shadow: none;
+  border-color: #1d479b;
+}

@@ -1,0 +1,133 @@
+.navbar {
+  background-color: #fff;
+}
+.logo-subText {
+  top: -15px;
+  right: -8%;
+  font-size: 14px;
+  color: #fff;
+}
+.sticky {
+  position: sticky;
+
+  z-index: 1;
+}
+.sticky-btn-cont {
+  right: -50px;
+}
+@media screen and (max-width: 768px) {
+  .sticky-btn-cont {
+    left: 0;
+    bottom: 0;
+  }
+}
+
+.sticky-btn-cont button,
+.stickyBtn {
+  background-color: #1d479b;
+  color: #1d479b;
+}
+
+.navbar .nav-link {
+  color: #1d4f91 !important;
+}
+.nav-link:hover {
+  /* background-color: #315c8e; */
+  /* color: #fff !important; */
+  font-weight: bold;
+  scale: 1.05;
+}
+.nav-link.active {
+  color: #f9622a !important;
+}
+.nav-link:focus {
+  outline: none;
+}
+.home-about p {
+  font-size: 18px;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+.lhStory {
+  color: #f9622a;
+  font-size: 32px !important;
+  margin-bottom: 0.1rem !important;
+}
+
+.home-about h2 {
+  font-size: 42px;
+  color: #1d479b;
+
+  margin-bottom: 1.2rem;
+}
+@media screen and (max-width: 568px) {
+  .home-about h2 {
+    font-size: 32px;
+  }
+}
+
+.home-about p:not(.lhStory) {
+  color: #707070;
+  font-size: 25px;
+}
+.home-about button {
+  background-color: #1d479b;
+  padding: 5px 30px;
+  color: #fff;
+}
+
+/* Search input styles */
+.newsletter {
+  background-color: #1d4f91;
+}
+.search-container {
+  background-color: #fff;
+  position: relative;
+  border-radius: 30px;
+  /* padding: 3px 50px 3px 10px; */
+}
+.search-box {
+  background-color: transparent;
+  /* outline: none; */
+  border: 0;
+  height: 50px;
+  font-size: 15px;
+
+  width: 100%;
+}
+.search-button {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: #f9622a;
+  padding: 0 30px;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border: 0;
+  color: #fff;
+  height: 50px;
+  outline: 0;
+}
+
+.logo-container ul {
+  z-index: 9;
+}
+.logo-container .slick-list img {
+  width: 100px;
+}
+.logo-container .slick-dots {
+  rotate: 0deg !important;
+  bottom: 15px;
+  transform: translateX(-50%);
+  left: 50%;
+}
+.partners h4 {
+  color: #1d479b;
+  font-size: 2rem;
+}
+.partners p {
+  color: #707070;
+}
+
+.brandLogos .slick-dots {
+}

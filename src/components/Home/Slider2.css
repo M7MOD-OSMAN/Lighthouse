@@ -1,0 +1,52 @@
+.slider2 {
+  position: relative;
+}
+.slide {
+  position: relative;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  pointer-events: auto;
+}
+.green-slick .slick-dots {
+  height: 540px;
+}
+.green-slick .slick-dots {
+  /* height: 100%; */
+  height: fit-content !important;
+  top: 50%;
+}
+.overlay2 h2 {
+  font-size: 2.5rem;
+
+  color: #1d479b !important;
+}
+
+.overlay2 p {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #f8485e;
+}
+
+.overlay2 button {
+  font-size: 1.5rem;
+  background-color: #ffc646;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+@media screen and (max-width: 568px) {
+  .overlay2 h2 {
+    font-size: 16px;
+  }
+  .overlay2 p {
+    font-size: 16px;
+  }
+  .overlay2 button {
+    font-size: 16px;
+  }
+}

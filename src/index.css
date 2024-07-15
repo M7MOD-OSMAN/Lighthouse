@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Arimo";
+  src: local("Arimo"), url("./fonts/Arimo.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "MrDafoe";
+  src: local("MrDafoe"), url("./fonts/MrDafoe-Regular.ttf") format("truetype");
+}
+* {
+  font-family: "Arimo";
+}
+
+.halfHeight-hero {
+  height: 384px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1366px) {
+  .overlay2 {
+    left: 65% !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .slick-dots {
+    right: -5% !important;
+  }
+}
+.modal-close-btn {
+  background-color: #1d479b;
+}

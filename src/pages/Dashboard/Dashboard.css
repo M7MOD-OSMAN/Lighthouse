@@ -1,0 +1,17 @@
+.points a {
+  padding: 0.7rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+a.active-link {
+  background-color: #e8e8e8;
+  border-radius: 4px;
+}
+.accordion-button:not(.collapsed),
+.accordion-button:not(.collapsed):focus {
+  box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px;
+}
+.login-btn {
+  background-color: #1d479b;
+}
